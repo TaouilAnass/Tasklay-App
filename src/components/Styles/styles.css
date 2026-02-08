@@ -1,0 +1,35 @@
+.dark {
+    @apply bg-gray-900 text-white;
+  }
+  
+  .light {
+    @apply bg-white text-gray-900;
+  }
+  :root {
+    --primary: #9333ea;
+  }
+
+  /* Firefox */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.active{
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
